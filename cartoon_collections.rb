@@ -5,9 +5,14 @@ end
   # code an argument here
   # Your code here
 
-   # code an argument here
+def summon_captain_planet(array)
+  planeteer_calls = []
+  array.collect do |calls|
+    planeteer_calls << "#{calls.capitalize}!"
+  end
+  planeteer_calls
+end   # code an argument here
   # Your code here
-end
 
 def long_planeteer_calls# code an argument here
   # Your code here
